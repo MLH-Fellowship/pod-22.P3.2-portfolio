@@ -1,10 +1,20 @@
 <header class="nav-bar">
-    <div class="nav-content">
-        <a href="{{ '/' | relative_url }}">
-            <div class="nav-logo">
-                <img src="./assets/img/mlh-prep.png" />
-            </div>
-        </a>
-        
+  <div class="nav-content">
+    <div class="first-div inner-div">
+      <a href="{{ '/' | relative_url }}">
+        <div class="nav-logo">
+          <img src="./assets/img/mlh-prep.png" />
+        </div>
+      </a>
     </div>
+    <div class="theme-switch inner-div">
+      <div class="switch"></div>
+    </div>
+  </div>
 </header>
+
+<script>
+  $(".theme-switch").on("click", () => {
+    $("body").toggleClass("light-theme");
+  });
+</script>
