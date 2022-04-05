@@ -6,11 +6,15 @@
     {% else %}
     <a>
     {% endif %}
-      <div class="card">
+      <div class="project-card">
         <div class="info">
           <p class="title">{{ item.title }}</p>
+          <img src="./assets/img/{{ item.img }}" height=50px width=100px alt="image">
           <p class="location">{{ item.event }}</p>
           <p class="dates">{{ item.date }}</p>
+          <br>
+          <p class="dates">Developed by {{ item.developer }}</p>
+          <p class="dates">Tech Stack: {{ item.tech-stack }}</p>
         </div>
       </div>
     </a>
