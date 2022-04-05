@@ -1,7 +1,9 @@
 :root {
-  --background: #000;
+  --background: #121212;
+  --card: #1e1e1e;
   --text: #fff;
-  --highlight: #e4c8bd;
+  --text2: #858585;
+  --highlight: #62cbd6;
 }
 
 p,
@@ -25,6 +27,7 @@ body {
   width: auto !important;
   overflow-x: hidden !important;
   font-family: "Open Sans", serif;
+  color: var(--text);
 }
 
 .banner {
@@ -53,32 +56,32 @@ body {
 .page h1 {
   text-align: left !important;
   font-weight: 800 !important;
-  color: var(--text);
+  color: black;
   margin-bottom: 0.7em;
 }
 
 .page h2 {
   text-align: left !important;
   font-weight: 800 !important;
-  color: var(--text);
+  color: black;
   margin-bottom: 0.5em;
 }
 
 .page h3 {
   font-weight: 600 !important;
   text-align: left !important;
-  color: var(--text);
+  color: black;
   font-size: 1.3rem;
 }
 
 .page h4 {
   font-weight: 600 !important;
   text-align: center !important;
-  color: var(--text);
+  color: black;
 }
 
 .page p {
-  color: var(--text);
+  color: black;
   font-weight: 500;
 }
 
@@ -95,11 +98,11 @@ body {
 }
 
 .page a {
-  color: #0f90fe;
+  color: black;
 }
 
 .page a:hover {
-  color: #0f90fe;
+  color: black;
 }
 
 .page code {
@@ -144,7 +147,11 @@ hr {
     font-size: 0.8rem !important;
   }
 }
-
+.switch-div {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+}
 .theme-switch {
   --background: #fff;
   --text: #000;
@@ -173,6 +180,13 @@ hr {
   --text: #000;
   background: var(--background);
 
+  .body {
+    color: var(--text);
+  }
+
+  .card {
+    background: white;
+  }
   .theme-switch {
     background: var(--text);
 
