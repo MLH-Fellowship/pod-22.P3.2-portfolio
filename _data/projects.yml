@@ -1,14 +1,23 @@
 - title: Online Shopping App
   event: MLH Prep Pod Project
   date: Fall 2021  - Batch 4.5
+  developer: Dasith Edirisinghe
+  tech-stack: Reactjs, Nodejs
+  img: online-shopping.png
   page-name: project
 
 - title: Todo List
   event: MLH Prep Pod Project
   date: Fall 2021  - Batch 4.5
+  developer: Rishabh
+  tech-stack: Reactjs, Nodejs
+  img: todo.jpg
   page-name: project
 
 - title: iOS App
   event: MLH Prep Pod Project
   date: Fall 2021  - Batch 4.5
+  developer: Marc
+  tech-stack: Reactjs, Nodejs
+  img: ios.png
   page-name: project

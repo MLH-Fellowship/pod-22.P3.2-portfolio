@@ -51,6 +51,19 @@ h2 {
     font-size: 1.2em;
 }
 
+.project-card {
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  width: auto;
+  align-items: 20px;
+  margin: 20px 30px;
+  background-color: white;
+  border-radius: .375rem;
+  padding: 1.5em;
+  font-size: 1.2em;
+}
+
 a {
     color: black;
 }
