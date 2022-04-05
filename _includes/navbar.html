@@ -5,15 +5,12 @@
                 <img src="./assets/img/mlh-prep.png" />
             </div>
         </a>
-        <a class="nav-link" href="#meet-the-pod">
-            <div class="nav-item">
-                <h2>Meet the Pod</h2>
-            </div>
-        </a>
-        <a class="nav-link" href="#projects">
-            <div class="nav-item">
-                <h2>Projects</h2>
-            </div>
-        </a>
+        {% for section in site.data.sections %}
+            <a class="nav-link" href="#{{ section.id }}">
+                <div class="nav-item">
+                    <h2>{{ section.name }}</h2>
+                </div>
+            </a>
+        {% endfor %}
     </div>
 </header>
