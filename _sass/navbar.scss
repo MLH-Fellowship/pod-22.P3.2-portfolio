@@ -3,7 +3,34 @@
     background-color: #133667;
     font-family: "Poppins", serif;
     font-weight: 700 !important;
-    padding-top: 10px;
+}
+
+.nav-content {
+    display: flex;
+    flex-direction: row;
+
+    .nav-item {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 0 6px;
+        padding: 0 6px;
+        color: white;
+        border-radius: 6px;
+
+        &:hover {
+            background-color: white;
+            color: #133667;
+        }
+    }
+
+    .nav-link {
+        text-decoration: none;
+    }
+
+    .nav-link:nth-child(2) {
+        margin-left: auto;
+    }
 }
 
 .nav-content .logo-touch-target {
@@ -20,7 +47,7 @@
 .nav-logo {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .nav-logo img {
