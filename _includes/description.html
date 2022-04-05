@@ -10,30 +10,38 @@
         <!-- Add a div for adding a socials bar -->
         <div class="socials-bar">
             
+            {% if item.linkedin %}
             <!-- Add divs for each icon -->
             <div class="icon linkedin-logo">
                 <a href="{{ item.linkedin }}" target="_blank">
                     <img src="assets/img/logos/linkedin.svg" alt="LinkedIn Logo">
                 </a>
             </div>
+            {% endif %}
 
+            {% if item.twitter %}
             <div class="icon twitter-logo">
                 <a href="{{ item.twitter }}" target="_blank">
                     <img src="assets/img/logos/twitter.svg" alt="Twitter Logo">
                 </a>
             </div>
+            {% endif %}
 
+            {% if item.resume %}
             <div class="icon resume-logo">
                 <a href="{{ item.resume }}" target="_blank">
                     <img src="assets/img/logos/resume.svg" alt="Resume Logo">
                 </a>
             </div>
+            {% endif %}
 
+            {% if item.github %}
             <div class="icon github-logo">
                 <a href="{{ item.github }}" target="_blank">
                     <img src="assets/img/logos/github.svg" alt="Github Logo">
                 </a>
             </div>
+            {% endif %}
 
         </div>
     </div>
