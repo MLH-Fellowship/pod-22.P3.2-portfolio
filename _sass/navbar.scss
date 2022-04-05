@@ -3,6 +3,8 @@
   background-color: #133667;
   font-family: "Poppins", serif;
   font-weight: 700 !important;
+  position: fixed;
+  z-index: 100;
 }
 
 .nav-content {
@@ -190,4 +192,9 @@
       }
     }
   }
+}
+
+.scrolled {
+  background-color: black;
+  transition: background-color 200ms linear;
 }

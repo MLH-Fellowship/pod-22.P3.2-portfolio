@@ -1,4 +1,4 @@
-<header class="nav-bar">
+<header class="nav-bar" id="top-nav-bar">
   <div class="nav-content">
     <a class="nav-link" href="{{ '/' | relative_url }}">
       <div class="nav-logo">
@@ -29,4 +29,6 @@
       {% endfor %}
     </div>
   </div>
+
+  <script src="{{ base.url | prepend: site.url }}/assets/js/navbar.js"></script>
 </header>
