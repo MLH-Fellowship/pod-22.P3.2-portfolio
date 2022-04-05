@@ -6,7 +6,7 @@
       </div>
     </a>
     {% for section in site.data.sections %}
-    <a class="nav-link" href="#{{ section.id }}">
+    <a class="nav-link text-link" href="#{{ section.id }}">
       <div class="nav-item">
         <h2>{{ section.name }}</h2>
       </div>
@@ -18,6 +18,15 @@
       <span class="line line1"></span>
       <span class="line line2"></span>
       <span class="line line3"></span>
+    </div>
+
+    <div class="nav-mobile">
+      {% for section in site.data.sections %}
+
+      <a href="#{{ section.id }}" class="nav-mobile-item">
+        <p>{{ section.name }}</p>
+      </a>
+      {% endfor %}
     </div>
   </div>
 </header>
