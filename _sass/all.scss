@@ -3,7 +3,6 @@
 @import "navbar";
 @import "profile";
 @import "page";
-@import "mode";
 
 .card-container {
   display: grid;
@@ -28,8 +27,6 @@
     grid-template-columns: 1fr;
   }
 }
-
-
 
 body {
   background-color: var(--background);
