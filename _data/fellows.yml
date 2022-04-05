@@ -1,29 +1,25 @@
-- name: Will
-  img: logo.jpg
+- name: Prakhar
   location: London, UK
   linkedin: https://www.linkedin.com/in/prakhar-rathi/
   twitter: https://twitter.com/PrakharRathi14
   github: https://github.com/prakharrathi25
-  resume: 
+  resume: https://prakharrathi25.netlify.app/
 
-- name: Amanda
-  img: amanda.jpg
+- name: Prakhar
   location: New York City, USA
   linkedin: https://www.linkedin.com/in/prakhar-rathi/
   twitter: https://twitter.com/PrakharRathi14
   github: https://github.com/prakharrathi25
   resume: https://prakharrathi25.netlify.app/
 
-- name: Aaron
-  img: aaron.jpg
+- name: Prakhar
   location: London, UK
   linkedin: https://www.linkedin.com/in/prakhar-rathi/
   twitter: https://twitter.com/PrakharRathi14
   github: https://github.com/prakharrathi25
   resume: https://prakharrathi25.netlify.app/
 
-- name: Swift
-  img: swift.jpg
+- name: Prakhar
   location: New York City, USA
   linkedin: https://www.linkedin.com/in/prakhar-rathi/
   twitter: https://twitter.com/PrakharRathi14
