@@ -166,12 +166,6 @@
   }
 
   .nav-content {
-    .hamburger-lines {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-
     .checkbox {
       &:checked ~ .nav-mobile {
         opacity: 1;
@@ -192,6 +186,12 @@
       }
     }
   }
+}
+
+.showHamburgerLines {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .scrolled {

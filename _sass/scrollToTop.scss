@@ -1,0 +1,28 @@
+.scrollToTop {
+  position: fixed;
+  opacity: 0;
+  bottom: 10px;
+  right: 20px;
+  transition: all 0.2s ease;
+  z-index: 5;
+  .icon-container {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: -1px 9px 27px 1px rgba(0, 0, 0, 0.56);
+    -webkit-box-shadow: -1px 9px 27px 1px rgba(0, 0, 0, 0.56);
+    -moz-box-shadow: -1px 9px 27px 1px rgba(0, 0, 0, 0.56);
+  }
+  svg {
+    fill: #133667;
+    height: 25px;
+  }
+}
+
+.showScrollToTop {
+  opacity: 1;
+}
