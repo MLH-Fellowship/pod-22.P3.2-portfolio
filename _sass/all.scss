@@ -11,6 +11,10 @@
   font-family: "Open Sans", sans-serif;
 }
 
+.card-container a {
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 1500px) {
   .card-container {
     grid-template-columns: repeat(3, 1fr);
@@ -47,6 +51,19 @@ h2 {
   margin: 20px 30px;
   background-color: white;
   border-radius: 0.375rem;
+  padding: 1.5em;
+  font-size: 1.2em;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  width: auto;
+  align-items: 20px;
+  margin: 20px 30px;
+  background-color: white;
+  border-radius: .375rem;
   padding: 1.5em;
   font-size: 1.2em;
 }
@@ -88,4 +105,10 @@ a {
   img {
     width: 100%;
   }
+}
+
+.socials-bar {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
 }
