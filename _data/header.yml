@@ -1,0 +1,3 @@
+# This file contains flag for whether or not we need to have 
+# background image in header.
+is_background_image: true
