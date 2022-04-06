@@ -1,12 +1,12 @@
 - title: First Blog
   author: Prakhar Rathi
-  background: /assets/img/blogs/coffee.jpg
+  background: assets/img/blogs/coffee.jpg
   short-description: "This is a very short description about the post"
   page-name: firstblog
 
 - title: Second Blog
   author: Prakhar Rathi
-  background: /assets/img/blogs/coffee.jpg
+  background: assets/img/blogs/coffee.jpg
   short-description: "This is my second post"
   page-name: second
 

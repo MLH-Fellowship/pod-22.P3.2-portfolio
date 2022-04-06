@@ -9,12 +9,12 @@
         {% else %}
         <a>
         {% endif %}
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="assets/img/blogs/coffee.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h3>Blog Title</h3>
-                    <h3>Blog Author</h3>
-                    <p class="card-text">Short Description</p>
+            <div class="card blog-card">
+                <img class="card-img-top blog-img" src="{{ blog.background }}" alt="Card image cap">
+                <div class="card-body blog-card-body">
+                    <h2>{{ blog.title }}</h2>
+                    <h2>{{ blog.author }}</h2>
+                    <p class="card-text blog-card-text">{{ blog.short-description }}</p>
                 </div>
             </div>
         </a>
