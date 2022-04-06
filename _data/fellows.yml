@@ -1,67 +1,95 @@
-- name: Will
-  img: logo.jpg
-  location: London, UK
-  linkedin: https://www.linkedin.com/in/prakhar-rathi/
-  twitter: https://twitter.com/PrakharRathi14
-  github: https://github.com/prakharrathi25
+- name: Arteev
+  img: arteev.jpg
+  location: Jammu & Kashmir, IN
+  linkedin: https://www.linkedin.com/in/arteevraina/
+  twitter: 
+  github: https://github.com/arteevraina
   resume: 
 
-- name: Amanda
-  img: amanda.jpg
-  location: New York City, USA
+- name: Prakhar
+  img: prakhar.png
+  location: New Delhi, IN
   linkedin: https://www.linkedin.com/in/prakhar-rathi/
-  twitter: https://twitter.com/PrakharRathi14
+  twitter: https://www.twitter.com/PrakharRathi14
   github: https://github.com/prakharrathi25
   resume: https://prakharrathi25.netlify.app/
 
-- name: Aaron
-  img: aaron.jpg
-  location: London, UK
-  linkedin: https://www.linkedin.com/in/prakhar-rathi/
-  twitter: https://twitter.com/PrakharRathi14
-  github: https://github.com/prakharrathi25
-  resume: https://prakharrathi25.netlify.app/
+- name: Vibali
+  img: vibali.jpg
+  location: Kolkata, IN
+  linkedin: https://www.linkedin.com/in/vibalijoshi/
+  twitter: 
+  github: https://github.com/vibalijoshi
+  resume: 
 
-- name: Swift
-  img: swift.jpg
-  location: New York City, USA
-
-- name: Arteev Raina
-  img: swift.jpg
-  location: Jammu and Kashmir, India
-
-- name: Prakhar Rathi
-  img: swift.jpg
-  location: New Delhi, India
-
-- name: Vibali Joshi
-  img: swift.jpg
-  location: Kolkata, India
-
-- name: Dasith Edirisinghe
-  img: swift.jpg
+- name: Dasith
+  img: dasith.jpg
   location: Kandy, Sri Lanka
+  linkedin: https://www.linkedin.com/in/dasithedirisinghe/
+  twitter: 
+  github: https://github.com/DasithEdirisinghe
+  resume: 
 
-- name: Asjad Ahmed Khan
-  img: swift.jpg
-  location: New Delhi, India
+- name: Asjad
+  img: asjad.png
+  location: New Delhi, IN
+  linkedin: https://www.linkedin.com/in/asjad2001/
+  twitter: 
+  github: https://github.com/2001asjad
+  resume: 
 
-- name: Pratyaksh Singh
-  img: swift.jpg
-  location: Mirzapur, UP, India
+- name: Pratyaksh
+  img: pratyaksh.jpeg
+  location: UP, IN
+  linkedin: https://www.linkedin.com/in/psn0w/
+  twitter: 
+  github: https://github.com/pSN0W
+  resume: 
 
-- name: Soham Bhoir
-  img: swift.jpg
-  location: Mumbai, India
+- name: Soham
+  img: soham.jpeg
+  location: Mumbai, IN
+  linkedin: https://www.linkedin.com/in/sohambhoir/
+  twitter: 
+  github: https://github.com/ThunderBolt-OS
+  resume: 
 
-- name: Meghana Varanasi
-  img: swift.jpg
-  location: Visakhapatnam
+- name: Meghana
+  img: meghana.png
+  location: Visakhapatnam, IN
+  linkedin: https://www.linkedin.com/in/prakhar-rathi/
+  twitter: 
+  github: https://github.com/Meghana-12
+  resume: 
 
 - name: Mohd. Yahya
-  img: swift.jpg
-  location: Delhi, India
+  img: mohdyahya.jpg
+  location: Delhi, IN
+  linkedin: https://www.linkedin.com/in/mohd-yahya-869a18214/
+  twitter: 
+  github: https://github.com/yahya-cloud
+  resume: 
 
-- name: Mitali Laroia
-  img: swift.jpg
-  location: Delhi, India
+- name: Mitali
+  img: mitali.jpg
+  location: Delhi, IN
+  linkedin: 
+  twitter: 
+  github: https://github.com/Mitali-laroia
+  resume: 
+
+- name: Samarthya
+  img: samarthya.jpg
+  location: Tamil Nadu, IN
+  linkedin: https://www.linkedin.com/in/samarthya-jha-a3b9971a9/
+  twitter: 
+  github: https://github.com/samarthya-jha
+  resume:
+
+- name: Judyta
+  img: judyta.jpg
+  location: Lisbon, PT
+  linkedin: https://www.linkedin.com/in/judyta-filipkowska/
+  twitter:
+  github: https://github.com/judytafilipkowska
+  resume: 
