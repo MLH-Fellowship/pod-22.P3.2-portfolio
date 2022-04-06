@@ -1,10 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
-@import "map";
-@import "navbar";
-@import "profile";
-@import "page";
-@import "scrollToTop";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import 'navbar';
+@import 'profile';
+@import 'page';
+@import 'footer';
 
 .card-container {
   display: grid;
@@ -80,6 +79,10 @@ a {
   margin: -80px 0 0;
 }
 
+.main-content {
+  min-height: 100vh;
+}
+
 .info {
   p {
     margin-top: 5px;
@@ -121,3 +124,22 @@ a {
   flex-direction: row;
   padding-top: 5px;
 }
+
+.backbutton {
+  color: white!important; 
+  border-radius: 8px; 
+  padding: 8px 12px 8px 12px; 
+  background-color: #133667 ;
+}
+
+.backbutton:hover {
+  color: white!important; 
+  border-radius: 8px; 
+  padding: 8px 12px 8px 12px; 
+  background-color: #0f90fe ; 
+  text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
