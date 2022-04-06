@@ -1,5 +1,5 @@
 ---
-title: First Blog
+title: Second Blog
 author: Prakhar Rathi
 background: /assets/img/blogs/coffee.jpg
 ---

@@ -1,7 +1,22 @@
-<h1>Blog Section</h1>
+<h2>Blog Section</h2>
 
 <!-- Card to hold the blog details -->
 <div class="card-container">
-    {% for blog in site.blogposts %}
-</div>
+    {% for blog in site.data.posts %}
+        
+        {% if blog.page-name %}
+        <a href="/posts/{{ blog.page-name }}">
+        {% else %}
+        <a>
+        {% endif %}
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="assets/img/blogs/coffee.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h3>Blog Title</h3>
+                    <h3>Blog Author</h3>
+                    <p class="card-text">Short Description</p>
+                </div>
+            </div>
+        </a>
     {% endfor %}
+</div>
