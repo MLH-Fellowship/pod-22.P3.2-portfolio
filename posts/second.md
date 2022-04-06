@@ -1,7 +1,9 @@
 ---
 title: Second Blog
 author: Prakhar Rathi
+layout: blog
 background: /assets/img/blogs/coffee.jpg
+date: 2017-01-01
 ---
 
 ## Inspiration
