@@ -1,23 +1,25 @@
 <header class="nav-bar">
-  <div class="nav-content">
-    <div class="switch-div">
-      <div class="theme-switch">
-        <div class="switch"></div>
-      </div>
-    </div>
+	<div class="nav-content">
+		<div class="switch-div">
+			<div class="theme-switch">
+				<i class="fas fa-moon"></i>
+				<i class="fas fa-sun fa-lg"></i>
+				<div class="switch"></div>
+			</div>
+		</div>
 
-    <div>
-      <a href="{{ '/' | relative_url }}">
-        <div class="nav-logo">
-          <img src="./assets/img/mlh-prep.png" />
-        </div>
-      </a>
-    </div>
-  </div>
+		<div>
+			<a href="{{ '/' | relative_url }}">
+				<div class="nav-logo">
+					<img src="./assets/img/mlh-prep.png" />
+				</div>
+			</a>
+		</div>
+	</div>
 </header>
 
 <script>
-  $(".theme-switch").on("click", () => {
-    $("body").toggleClass("light-theme");
-  });
+	$('.theme-switch').on('click', () => {
+		$('body').toggleClass('light-theme');
+	});
 </script>

@@ -1,9 +1,9 @@
 :root {
-  --background: #121212;
-  --card: #1e1e1e;
-  --text: #fff;
-  --text2: #858585;
-  --highlight: #62cbd6;
+	--background: #121212;
+	--card: #1e1e1e;
+	--text: #fff;
+	--text2: #858585;
+	--highlight: #62cbd6;
 }
 
 p,
@@ -14,184 +14,199 @@ h4,
 h5,
 h6,
 button {
-  font-family: "Open Sans", serif;
+	font-family: 'Open Sans', serif;
 }
 
 h2 {
-  font-size: large;
+	font-size: large;
 }
 
 body {
-  background-color: #f5f5f9;
-  background-size: cover;
-  width: auto !important;
-  overflow-x: hidden !important;
-  font-family: "Open Sans", serif;
-  color: var(--text);
+	background-color: #f5f5f9;
+	background-size: cover;
+	width: auto !important;
+	overflow-x: hidden !important;
+	font-family: 'Open Sans', serif;
+	color: var(--text);
 }
 
 .banner {
-  padding: 20px 0px 50px 0px;
-  height: 150px;
-  background-color: #1d539f;
+	padding: 20px 0px 50px 0px;
+	height: 150px;
+	background-color: #1d539f;
 }
 
 .banner .logo {
-  max-width: 180px;
-  max-height: 60px;
-  width: auto;
-  height: auto;
+	max-width: 180px;
+	max-height: 60px;
+	width: auto;
+	height: auto;
 }
 
 .banner .title {
-  color: var(--text);
-  font-size: 50px;
-  font-weight: 700;
+	color: var(--text);
+	font-size: 50px;
+	font-weight: 700;
 }
 
 .page {
-  text-align: left;
+	text-align: left;
 }
 
 .page h1 {
-  text-align: left !important;
-  font-weight: 800 !important;
-  color: black;
-  margin-bottom: 0.7em;
+	text-align: left !important;
+	font-weight: 800 !important;
+	color: black;
+	margin-bottom: 0.7em;
 }
 
 .page h2 {
-  text-align: left !important;
-  font-weight: 800 !important;
-  color: black;
-  margin-bottom: 0.5em;
+	text-align: left !important;
+	font-weight: 800 !important;
+	color: black;
+	margin-bottom: 0.5em;
 }
 
 .page h3 {
-  font-weight: 600 !important;
-  text-align: left !important;
-  color: black;
-  font-size: 1.3rem;
+	font-weight: 600 !important;
+	text-align: left !important;
+	color: black;
+	font-size: 1.3rem;
 }
 
 .page h4 {
-  font-weight: 600 !important;
-  text-align: center !important;
-  color: black;
+	font-weight: 600 !important;
+	text-align: center !important;
+	color: black;
 }
 
 .page p {
-  color: black;
-  font-weight: 500;
+	color: black;
+	font-weight: 500;
 }
 
 .page td {
-  color: black;
+	color: black;
 }
 
 .page th {
-  color: black;
+	color: black;
 }
 
 .page li {
-  color: black;
+	color: black;
 }
 
 .page a {
-  color: black;
+	color: black;
 }
 
 .page a:hover {
-  color: black;
+	color: black;
 }
 
 .page code {
-  color: #17a2b8;
+	color: #17a2b8;
 }
 
 hr {
-  background-color: black;
-  padding: 1px;
-  margin-top: 1em !important;
-  margin-bottom: 1em !important;
+	background-color: black;
+	padding: 1px;
+	margin-top: 1em !important;
+	margin-bottom: 1em !important;
 }
 
 @media screen and (max-width: 768px) {
-  .banner {
-    padding: 20px 0px 20px 0px;
-    height: 110px;
-  }
+	.banner {
+		padding: 20px 0px 20px 0px;
+		height: 110px;
+	}
 
-  .banner .logo {
-    max-width: 150px;
-    max-height: 60px;
-    width: auto;
-    height: auto;
-  }
+	.banner .logo {
+		max-width: 150px;
+		max-height: 60px;
+		width: auto;
+		height: auto;
+	}
 
-  .banner .title {
-    color: white;
-    font-size: 30px;
-    font-weight: 700;
-  }
+	.banner .title {
+		color: white;
+		font-size: 30px;
+		font-weight: 700;
+	}
 
-  .page h1 {
-    font-size: 1.5rem !important;
-  }
+	.page h1 {
+		font-size: 1.5rem !important;
+	}
 
-  .page h2 {
-    font-size: 1.2rem !important;
-  }
+	.page h2 {
+		font-size: 1.2rem !important;
+	}
 
-  .page h4 {
-    font-size: 0.8rem !important;
-  }
+	.page h4 {
+		font-size: 0.8rem !important;
+	}
 }
 .switch-div {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 2rem;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 2rem;
 }
 .theme-switch {
-  --background: #fff;
-  --text: #000;
-  color: var(--text);
-  width: 70px;
-  height: 30px;
-  background: var(--highlight);
-  border-radius: 50px;
-  position: relative;
+	--background: #fff;
+	--text: #000;
+	color: var(--text);
+	width: 70px;
+	height: 40px;
+	background: var(--text);
+	border-radius: 50px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 10px;
+	.switch {
+		position: absolute;
+		background: white;
+		width: 30px;
+		height: 30px;
+		background: var(--background);
+		border-radius: 100%;
+		position: absolute;
+		top: 5px;
+		left: 5px;
+		transition: 0.5s all ease;
+	}
+	.fa-moon {
+		color: #f1c40f;
+	}
 
-  .switch {
-    background: white;
-    width: 24px;
-    height: 24px;
-    background: var(--background);
-    border-radius: 100%;
-    position: absolute;
-    top: 3px;
-    left: 4px;
-    transition: 0.5s all ease;
-  }
+	.fa-sun {
+		color: #f39c12;
+	}
+}
+
+.theme-switch:hover {
+	cursor: pointer;
 }
 
 .light-theme {
-  --background: #fff;
-  --text: #000;
-  background: var(--background);
+	--background: #fff;
+	--text: #000;
+	background: var(--background);
 
-  .body {
-    color: var(--text);
-  }
+	.body {
+		color: var(--text);
+	}
 
-  .card {
-    background: white;
-  }
-  .theme-switch {
-    background: var(--text);
+	.card {
+		background: white;
+	}
+	.theme-switch {
+		background: var(--text);
 
-    .switch {
-      transform: translateX(37px);
-    }
-  }
+		.switch {
+			transform: translateX(30px);
+		}
+	}
 }
