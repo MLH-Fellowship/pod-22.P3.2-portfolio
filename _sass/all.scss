@@ -114,3 +114,18 @@ a {
   flex-direction: row;
   padding-top: 5px;
 }
+
+.backbutton {
+  color: white!important; 
+  border-radius: 8px; 
+  padding: 8px 12px 8px 12px; 
+  background-color: #133667 ;
+}
+
+.backbutton:hover {
+  color: white!important; 
+  border-radius: 8px; 
+  padding: 8px 12px 8px 12px; 
+  background-color: #0f90fe ; 
+  text-decoration: none;
+}
