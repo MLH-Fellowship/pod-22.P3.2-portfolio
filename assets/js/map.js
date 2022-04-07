@@ -7,15 +7,20 @@ var platform = new H.service.Platform({
     document.getElementById("mapContainer"),
     maptypes.vector.normal.map,
     {
-      zoom: 1,
+      zoom: 2,
       center: { lng: 13.4, lat: 52.51 },
     }
   ),
   behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map)),
-  ui = H.ui.UI.createDefault(map, defaultLayers);
+  ui = H.ui.UI.createDefault(map, defaultLayers),
+  domElement = document.createElement("div");
+domElement.setAttribute("id", "el");
+ui.getControl("mapsettings").setDisabled(true);
 
-function addMarkerToGroup(group, coordinate, html) {
-  var marker = new H.map.Marker(coordinate);
+function addMarkerToGroup(group, coords, html) {
+  // domElement.style.backgroundImage = "url(./images/yahya.jpg)";
+  var icon = new H.map.DomIcon(domElement);
+  var marker = new H.map.DomMarker(coords, { icon: icon });
   marker.setData(html);
   group.addObject(marker);
 }
@@ -38,17 +43,12 @@ function addInfoBubble(map) {
     },
     false
   );
+
   addMarkerToGroup(
     group,
     { lat: 53.439, lng: -2.221 },
     '<div><a href="https://www.mcfc.co.uk">Manchester City</a></div>' +
       "<div>City of Manchester Stadium<br />Capacity: 55,097</div>"
-  );
-  addMarkerToGroup(
-    group,
-    { lat: 53.43, lng: -2.961 },
-    '<div><a href="https://www.liverpoolfc.tv">Liverpool</a></div>' +
-      "<div>Anfield<br />Capacity: 54,074</div>"
   );
 }
 
