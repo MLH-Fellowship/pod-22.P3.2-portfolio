@@ -3,3 +3,6 @@
 
 - id: projects-nav
   name: Projects
+
+- id: blog-nav
+  name: Blog
