@@ -3,14 +3,12 @@ const navBarManagement = () => {
   const textLinks = document.querySelectorAll(".text-link");
   const navLogo = document.querySelector("#nav-logo");
   const navContent = document.querySelector("#nav-content");
-  const scrollToTop = document.querySelector(".scrollToTop");
   const burgerIcon = document.querySelector(".hamburger-lines ");
 
   if (
     document.body.scrollTop >= 10 ||
     document.documentElement.scrollTop >= 10
   ) {
-    scrollToTop.classList.add("showScrollToTop");
     navBar.classList.add("scrolled");
     navLogo.style.justifyContent = "flex-start";
     navContent.style.display = "flex";
@@ -27,7 +25,6 @@ const navBarManagement = () => {
     }
   } else {
     burgerIcon.classList.remove("showHamburgerLines");
-    scrollToTop.classList.remove("showScrollToTop");
     navBar.classList.remove("scrolled");
     navLogo.style.justifyContent = "center";
     navContent.style.display = "block";
