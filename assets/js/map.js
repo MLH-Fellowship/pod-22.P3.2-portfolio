@@ -1,23 +1,20 @@
 var platform = new H.service.Platform({
-    apikey: "Ie58QDbD3CjcQT8Xnwlgap30qMYPWqhbMs99Dbi7nz8",
-  }),
-  defaultLayers = platform.createDefaultLayers(),
-  maptypes = platform.createDefaultLayers(),
-  map = new H.Map(
-    document.getElementById("mapContainer"),
-    maptypes.vector.normal.map,
-    {
-      zoom: 2,
-      center: { lng: 13.4, lat: 52.51 },
-    }
-  ),
-  behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map)),
-  ui = H.ui.UI.createDefault(map, defaultLayers),
-  domElement = document.createElement("div");
-domElement.setAttribute("id", "el");
-ui.getControl("mapsettings").setDisabled(true);
+  apikey: "Ie58QDbD3CjcQT8Xnwlgap30qMYPWqhbMs99Dbi7nz8",
+});
+var maptypes = platform.createDefaultLayers();
+var map = new H.Map(
+  document.getElementById("mapContainer"),
+  maptypes.vector.normal.map,
+  {
+    zoom: 2,
+    center: { lng: 13.4, lat: 52.51 },
+  }
+);
+var behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
 
 function addMarkerToGroup(group, coords, html) {
+  var domElement = document.createElement("div");
+  domElement.setAttribute("id", "el");
   // domElement.style.backgroundImage = "url(./images/yahya.jpg)";
   var icon = new H.map.DomIcon(domElement);
   var marker = new H.map.DomMarker(coords, { icon: icon });
