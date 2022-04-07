@@ -11,6 +11,8 @@ var map = new H.Map(
   }
 );
 var behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
+var defaultLayers = platform.createDefaultLayers();
+var ui = H.ui.UI.createDefault(map, defaultLayers);
 
 function addMarkerToGroup(group, coords, html) {
   var domElement = document.createElement("div");
