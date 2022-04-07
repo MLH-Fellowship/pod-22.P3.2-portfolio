@@ -1,201 +1,201 @@
 .nav-bar {
-	width: 100%;
-	background-color: #133667;
-	font-family: 'Poppins', serif;
-	font-weight: 700 !important;
-	position: fixed;
-	z-index: 100;
+  width: 100%;
+  background-color: #133667;
+  font-family: "Poppins", serif;
+  font-weight: 700 !important;
+  position: fixed;
+  z-index: 100;
 }
 
 .nav-content {
-	display: flex;
-	flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
-	.nav-item {
-		display: flex;
-		align-items: center;
-		justify-content: flex-end;
-		margin: 0 6px;
-		padding: 0 6px;
-		color: white;
-		border-radius: 6px;
+  .nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 6px;
+    padding: 0 6px;
+    color: white;
+    border-radius: 6px;
 
-		&:hover {
-			background-color: white;
-			color: #133667;
-		}
-	}
+    &:hover {
+      background-color: white;
+      color: #133667;
+    }
+  }
 
-	.nav-link {
-		text-decoration: none;
-	}
+  .nav-link {
+    text-decoration: none;
+  }
 
-	.nav-link:nth-child(2) {
-		margin-left: auto;
-	}
+  .nav-link:nth-child(2) {
+    margin-left: auto;
+  }
 }
 
 .nav-content .logo-touch-target {
-	display: inline-flex;
-	height: 60%;
-	width: 350px;
+  display: inline-flex;
+  height: 60%;
+  width: 350px;
 }
 
 .nav-content .nav-logo {
-	height: 60px;
-	margin: auto;
+  height: 60px;
+  margin: auto;
 }
 
 .nav-logo {
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .nav-logo img {
-	width: 200px;
+  width: 200px;
 }
 
-.nav-content  {
-	display: flex;
-	flex-direction: row;
-	width: 100%;
-	text-align: right;
-	padding-top: 0px;
-	padding-right: 0px;
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: right;
+  padding-top: 0px;
+  padding-right: 0px;
 }
 
 ///Mobile nav
 .nav-mobile {
-	display: none;
-	position: absolute;
-	opacity: 0;
-	top: 0;
-	margin-top: 65px;
-	left: 0;
-	flex-direction: column;
-	width: 100%;
-	justify-content: center;
-	align-items: center;
-	padding: 10px;
-	background-color: #fff;
-	list-style: none;
-	transition: all 0.2s ease;
+  display: none;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  margin-top: 65px;
+  left: 0;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  list-style: none;
+  transition: all 0.2s ease;
 }
 
 .nav-content {
-	.checkbox {
-		position: absolute;
-		display: block;
-		height: 32px;
-		width: 32px;
-		top: 25px;
-		right: 20px;
-		z-index: 5;
-		opacity: 0;
-		cursor: pointer;
+  .checkbox {
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 32px;
+    top: 25px;
+    right: 20px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
 
-		&:checked ~ .hamburger-lines .line1 {
-			transform: rotate(45deg);
-		}
-		&:checked ~ .hamburger-lines .line2 {
-			transform: scaleY(0);
-		}
-		&:checked ~ .hamburger-lines .line3 {
-			transform: rotate(-45deg);
-		}
-		&:checked ~ .menu-items {
-			transform: translateX(0);
-		}
-	}
+    &:checked ~ .hamburger-lines .line1 {
+      transform: rotate(45deg);
+    }
+    &:checked ~ .hamburger-lines .line2 {
+      transform: scaleY(0);
+    }
+    &:checked ~ .hamburger-lines .line3 {
+      transform: rotate(-45deg);
+    }
+    &:checked ~ .menu-items {
+      transform: translateX(0);
+    }
+  }
 
-	.hamburger-lines {
-		position: absolute;
-		height: 26px;
-		width: 32px;
-		top: 25px;
-		right: 20px;
-		z-index: 2;
-		display: none;
+  .hamburger-lines {
+    position: absolute;
+    height: 26px;
+    width: 32px;
+    top: 25px;
+    right: 20px;
+    z-index: 2;
+    display: none;
 
-		.line {
-			display: block;
-			height: 4px;
-			width: 100%;
-			border-radius: 10px;
-			background: #fff;
-		}
+    .line {
+      display: block;
+      height: 4px;
+      width: 100%;
+      border-radius: 10px;
+      background: #fff;
+    }
 
-		.line1 {
-			transform-origin: 0% 0%;
-			transition: transform 0.4s ease-in-out;
-		}
+    .line1 {
+      transform-origin: 0% 0%;
+      transition: transform 0.4s ease-in-out;
+    }
 
-		.line2 {
-			transition: transform 0.2s ease-in-out;
-		}
+    .line2 {
+      transition: transform 0.2s ease-in-out;
+    }
 
-		.line3 {
-			transform-origin: 0% 100%;
-			transition: transform 0.4s ease-in-out;
-		}
-	}
+    .line3 {
+      transform-origin: 0% 100%;
+      transition: transform 0.4s ease-in-out;
+    }
+  }
 }
 
 @media only screen and (max-width: 600px) {
-	.text-link {
-		display: none;
-	}
-	.nav-mobile {
-		display: flex;
+  .text-link {
+    display: none;
+  }
+  .nav-mobile {
+    display: flex;
 
-		& > a {
-			margin: 0;
-			padding: 0.5em;
-			width: 100%;
-			font-weight: 400;
-			color: #000;
-			background-color: #fff;
-			cursor: pointer;
-			border-radius: 5px;
-			text-decoration: none;
-		}
+    & > a {
+      margin: 0;
+      padding: 0.5em;
+      width: 100%;
+      font-weight: 400;
+      color: #000;
+      background-color: #fff;
+      cursor: pointer;
+      border-radius: 5px;
+      text-decoration: none;
+    }
 
-		& > a:hover {
-			background-color: rgba(202, 202, 207, 0.9);
-		}
-	}
+    & > a:hover {
+      background-color: rgba(202, 202, 207, 0.9);
+    }
+  }
 
-	.nav-content {
-		.checkbox {
-			&:checked ~ .nav-mobile {
-				opacity: 1;
-			}
+  .nav-content {
+    .checkbox {
+      &:checked ~ .nav-mobile {
+        opacity: 1;
+      }
 
-			& ~ .nav-mobile a {
-				height: 0;
-				margin: 0;
-				padding: 0.5em 20px;
-				border: 0;
-				transition: height 0.2s ease;
-			}
+      & ~ .nav-mobile a {
+        height: 0;
+        margin: 0;
+        padding: 0.5em 20px;
+        border: 0;
+        transition: height 0.2s ease;
+      }
 
-			&:checked ~ .nav-mobile a {
-				height: 2.5em;
-				padding: 0.5em 20px;
-				transition: height 0.2s ease;
-			}
-		}
-	}
+      &:checked ~ .nav-mobile a {
+        height: 2.5em;
+        padding: 0.5em 20px;
+        transition: height 0.2s ease;
+      }
+    }
+  }
 }
 
 .showHamburgerLines {
-	display: flex !important;
-	flex-direction: column;
-	justify-content: space-between;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .scrolled {
-	background-color: black;
-	transition: background-color 200ms linear;
+  background-color: black;
+  transition: background-color 200ms linear;
 }
