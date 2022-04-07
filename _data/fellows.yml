@@ -1,31 +1,110 @@
-- name: Will
-  img: logo.jpg
-  location: London, UK
-  linkedin: https://www.linkedin.com/in/prakhar-rathi/
-  twitter: https://twitter.com/PrakharRathi14
-  github: https://github.com/prakharrathi25
-  resume: 
+- name: Arteev
+  img: arteev.jpg
+  location: Jammu & Kashmir, IN
+  linkedin: https://www.linkedin.com/in/arteevraina/
+  twitter:
+  github: https://github.com/arteevraina
+  resume:
 
-- name: Amanda
-  img: amanda.jpg
-  location: New York City, USA
+- name: Prakhar
+  img: prakhar.png
+  location: New Delhi, IN
   linkedin: https://www.linkedin.com/in/prakhar-rathi/
-  twitter: https://twitter.com/PrakharRathi14
+  twitter: https://www.twitter.com/PrakharRathi14
   github: https://github.com/prakharrathi25
   resume: https://prakharrathi25.netlify.app/
 
-- name: Aaron
-  img: aaron.jpg
-  location: London, UK
-  linkedin: https://www.linkedin.com/in/prakhar-rathi/
-  twitter: https://twitter.com/PrakharRathi14
-  github: https://github.com/prakharrathi25
-  resume: https://prakharrathi25.netlify.app/
+- name: Vibali
+  img: vibali.jpg
+  location: Kolkata, IN
+  linkedin: https://www.linkedin.com/in/vibalijoshi/
+  twitter:
+  github: https://github.com/vibalijoshi
+  resume:
 
-- name: Swift
-  img: swift.jpg
-  location: New York City, USA
+- name: Dasith
+  img: dasith.jpg
+  location: Kandy, Sri Lanka
+  linkedin: https://www.linkedin.com/in/dasithedirisinghe/
+  twitter:
+  github: https://github.com/DasithEdirisinghe
+  resume:
+
+- name: Asjad
+  img: asjad.png
+  location: New Delhi, IN
+  linkedin: https://www.linkedin.com/in/asjad2001/
+  twitter:
+  github: https://github.com/2001asjad
+  resume:
+
+- name: Pratyaksh
+  img: pratyaksh.jpeg
+  location: UP, IN
+  linkedin: https://www.linkedin.com/in/psn0w/
+  twitter:
+  github: https://github.com/pSN0W
+  resume:
+
+- name: Soham
+  img: soham.jpeg
+  location: Mumbai, IN
+  linkedin: https://www.linkedin.com/in/sohambhoir/
+  twitter:
+  github: https://github.com/ThunderBolt-OS
+  resume:
+
+- name: Meghana
+  img: meghana.png
+  location: Visakhapatnam, IN
   linkedin: https://www.linkedin.com/in/prakhar-rathi/
-  twitter: https://twitter.com/PrakharRathi14
-  github: https://github.com/prakharrathi25
-  resume: https://prakharrathi25.netlify.app/
+  twitter:
+  github: https://github.com/Meghana-12
+  resume:
+
+- name: Mohd. Yahya
+  img: mohdyahya.jpg
+  location: Delhi, IN
+  linkedin: https://www.linkedin.com/in/mohd-yahya-869a18214/
+  twitter:
+  github: https://github.com/yahya-cloud
+  resume:
+
+- name: Mitali
+  img: mitali.jpg
+  location: Delhi, IN
+  linkedin: https://www.linkedin.com/in/mitali-laroia-b52763191
+  twitter: https://twitter.com/LaroiaMitali?s=08
+  github: https://github.com/Mitali-laroia
+  resume:
+
+- name: Samarthya
+  img: samarthya.jpg
+  location: Tamil Nadu, IN
+  linkedin: https://www.linkedin.com/in/samarthya-jha-a3b9971a9/
+  twitter:
+  github: https://github.com/samarthya-jha
+  resume:
+
+- name: Judyta
+  img: judyta.jpg
+  location: Lisbon, PT
+  linkedin: https://www.linkedin.com/in/judyta-filipkowska/
+  twitter:
+  github: https://github.com/judytafilipkowska
+  resume:
+
+- name: Rishi
+  img: rishi.jpg
+  location: Mumbai, IN
+  linkedin: https://www.linkedin.com/in/rishindesaii
+  twitter:
+  github: https://github.com/RishiDesai17
+  resume:
+
+- name: Rishabh
+  img: Rishabh Vasudevan.jpg
+  location: Mumbai, IN
+  linkedin: https://www.linkedin.com/in/rishabh-vasudevan-6500ab19b/
+  github: https://www.github.com/rishabh-vasudevan
+  resume:
