@@ -2,6 +2,12 @@
 <div class="card-container" id="meet-the-pod">
     {% for item in site.data.fellows %}
     <div class="card">
+        <!-- Adding a div for adding images of fellows  -->
+
+        <div class="profile-img">
+            <img class="description-img" src="./assets/img/{{ item.img }}">
+        </div>
+
         <div class="info">
             <p class="title"> {{ item.name }}</p>
             <p class="location"> {{ item.location }}</p>
