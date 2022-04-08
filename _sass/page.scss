@@ -221,3 +221,9 @@ hr {
     }
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .switch-div {
+    margin: 10px 0;
+  }
+}

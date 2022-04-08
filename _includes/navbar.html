@@ -1,45 +1,48 @@
 <header class="nav-bar" id="top-nav-bar">
-	<div class="nav-content" id="nav-content">
-		<a class="nav-link" href="{{ '/' | relative_url }}">
-			<div class="nav-logo" id="nav-logo">
-				<img src="./assets/img/mlh-prep.png" />
-			</div>
-		</a>
-		{% for section in site.data.sections %}
-		<a class="nav-link text-link" href="#{{ section.id }}">
-			<div class="nav-item">
-				<h2>{{ section.name }}</h2>
-			</div>
-		</a>
-		{% endfor %}
-		<div class="switch-div">
-			<div class="theme-switch">
-				<i class="fas fa-moon"></i>
-				<i class="fas fa-sun fa-lg"></i>
-				<div class="switch"></div>
-			</div>
-		</div>
+  <div class="nav-content" id="nav-content">
+    <a class="nav-link" href="{{ '/' | relative_url }}">
+      <div class="nav-logo" id="nav-logo">
+        <img src="./assets/img/mlh-prep.png" />
+      </div>
+    </a>
 
-		<input class="checkbox" type="checkbox" name="" id="" />
-		<div class="hamburger-lines">
-			<span class="line line1"></span>
-			<span class="line line2"></span>
-			<span class="line line3"></span>
-		</div>
+    <input class="checkbox" type="checkbox" name="" id="" />
+    <div class="hamburger-lines">
+      <span class="line line1"></span>
+      <span class="line line2"></span>
+      <span class="line line3"></span>
+    </div>
 
-		<div class="nav-mobile">
-			{% for section in site.data.sections %}
+    <div class="main-container">
+      {% for section in site.data.sections %}
+      <a class="nav-link" href="#{{ section.id }}">
+        <div class="nav-item">
+          <h2>{{ section.name }}</h2>
+        </div>
+      </a>
+      {% endfor %}
+      <div class="switch-div">
+        <div class="theme-switch">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun fa-lg"></i>
+          <div class="switch"></div>
+        </div>
+      </div>
+    </div>
 
-			<a href="#{{ section.id }}" class="nav-mobile-item">
-				<p>{{ section.name }}</p>
-			</a>
-			{% endfor %}
-		</div>
-	</div>
+    <!-- <div class="nav-mobile">
+      {% for section in site.data.sections %}
+
+      <a href="#{{ section.id }}" class="nav-mobile-item">
+        <p>{{ section.name }}</p>
+      </a>
+      {% endfor %}
+    </div> -->
+  </div>
 
   <script>
-	$('.theme-switch').on('click', () => {
-		$('body').toggleClass('light-theme');
-	});
-</script>
+    $(".theme-switch").on("click", () => {
+      $("body").toggleClass("light-theme");
+    });
+  </script>
 </header>
