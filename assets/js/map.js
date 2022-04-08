@@ -6,20 +6,22 @@ var map = new H.Map(
   document.getElementById("mapContainer"),
   maptypes.vector.normal.map,
   {
-    zoom: 2,
-    center: { lng: 13.4, lat: 52.51 },
+    zoom: 0,
+    center: { lat: 12.8628, lng: 30.2176 },
   }
 );
 var behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
-var defaultLayers = platform.createDefaultLayers();
-var ui = H.ui.UI.createDefault(map, defaultLayers);
+var ui = H.ui.UI.createDefault(map, {});
+ui.removeControl("mapsettings");
+ui.removeControl("zoom");
 
 function addMarkerToGroup(group, coords, html) {
   var domElement = document.createElement("div");
   domElement.setAttribute("id", "el");
-  // domElement.style.backgroundImage = "url(./images/yahya.jpg)";
   var icon = new H.map.DomIcon(domElement);
   var marker = new H.map.DomMarker(coords, { icon: icon });
+  // var marker = new H.map.Marker({ ...coords });
+
   marker.setData(html);
   group.addObject(marker);
 }
@@ -45,7 +47,7 @@ function addInfoBubble(map) {
 
   addMarkerToGroup(
     group,
-    { lat: 53.439, lng: -2.221 },
+    { lat: 26.8467, lng: 80.9462 },
     '<div><a href="https://www.mcfc.co.uk">Manchester City</a></div>' +
       "<div>City of Manchester Stadium<br />Capacity: 55,097</div>"
   );
