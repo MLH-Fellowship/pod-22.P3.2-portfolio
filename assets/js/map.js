@@ -7,13 +7,12 @@ var map = new H.Map(
   maptypes.vector.normal.map,
   {
     zoom: 0,
-    center: { lat: 12.8628, lng: 30.2176 },
+    center: { lat: 4.0383, lng: 21.7587 },
   }
 );
 var behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
-var ui = H.ui.UI.createDefault(map, {});
-ui.removeControl("mapsettings");
-ui.removeControl("zoom");
+var ui = H.ui.UI.createDefault(map, maptypes);
+behavior.disable(H.mapevents.Behavior.WHEELZOOM);
 
 function addMarkerToGroup(group, coords, html) {
   var domElement = document.createElement("div");
