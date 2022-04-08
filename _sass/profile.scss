@@ -1,9 +1,12 @@
 .profile {
-  background-color: #133667 !important;
   text-align: center;
   height: 320px;
   margin-bottom: 50px;
   padding-top: 80px;
+  background-image: url("../img/bg-img.jpg") !important;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.7;
 
   h1 {
     font-size: 50px;
@@ -16,7 +19,6 @@
 /*
 Specfic class for the background image in header.
 */
-.background-image {
-  background-image: url("../img/bg-img.jpg") !important;
-  opacity: 0.7;
+.backgroundImage1 {
+  background-image: url("../img/bg-img2.jpg") !important;
 }

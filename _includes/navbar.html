@@ -13,6 +13,7 @@
       <span class="line line3"></span>
     </div>
 
+
     <div class="main-container">
       {% for section in site.data.sections %}
       <a class="nav-link" href="#{{ section.id }}">
@@ -30,19 +31,12 @@
       </div>
     </div>
 
-    <!-- <div class="nav-mobile">
-      {% for section in site.data.sections %}
-
-      <a href="#{{ section.id }}" class="nav-mobile-item">
-        <p>{{ section.name }}</p>
-      </a>
-      {% endfor %}
-    </div> -->
   </div>
 
   <script>
     $(".theme-switch").on("click", () => {
       $("body").toggleClass("light-theme");
+      $(".profile").toggleClass("backgroundImage1");
     });
   </script>
 </header>
