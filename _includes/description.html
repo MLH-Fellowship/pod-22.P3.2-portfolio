@@ -1,56 +1,61 @@
 <h2 id="meet-the-pod-nav" class="section-title">Meet the Pod</h2>
 <div class="card-container" id="meet-the-pod">
     {% for item in site.data.fellows %}
-    <div class="card">
-        <!-- Adding a div for adding images of fellows  -->
+        <div class="card">
 
-        <div class="profile-img">
-            <img class="description-img" src="./assets/img/{{ item.img }}">
+            <div class="rout">
+                {% if item.file-name %}
+                <a href="/fellows-data/{{ item.file-name }}">
+                {% endif %}
+            </div>
+            <!-- Adding a div for adding images of fellows  -->
+            <div class="profile-img">
+                <img class="description-img" src="./assets/img/{{ item.img }}">
+            </div>
+
+            <div class="info">
+                <p class="title"> {{ item.name }}</p>
+                <p class="location"> {{ item.location }}</p>
+            </div>
+
+            <!-- Add a div for adding a socials bar -->
+            <div class="socials-bar">
+
+                {% if item.linkedin %}
+                <!-- Add divs for each icon -->
+                <div class="icon linkedin-logo">
+                    <a href="{{ item.linkedin }}" target="_blank">
+                        <img src="assets/img/logos/linkedin.svg" alt="LinkedIn Logo">
+                    </a>
+                </div>
+                {% endif %}
+
+                {% if item.twitter %}
+                <div class="icon twitter-logo">
+                    <a href="{{ item.twitter }}" target="_blank">
+                        <img src="assets/img/logos/twitter.svg" alt="Twitter Logo">
+                    </a>
+                </div>
+                {% endif %}
+
+                {% if item.resume %}
+                <div class="icon resume-logo">
+                    <a href="{{ item.resume }}" target="_blank">
+                        <img src="assets/img/logos/resume.svg" alt="Resume Logo">
+                    </a>
+                </div>
+                {% endif %}
+
+                {% if item.github %}
+                <div class="icon github-logo">
+                    <a href="{{ item.github }}" target="_blank">
+                        <img src="assets/img/logos/github.svg" alt="Github Logo">
+                    </a>
+                </div>
+                {% endif %}
+
+            </div>
         </div>
-
-        <div class="info">
-            <p class="title"> {{ item.name }}</p>
-            <p class="location"> {{ item.location }}</p>
-        </div>
-
-        <!-- Add a div for adding a socials bar -->
-        <div class="socials-bar">
-            
-            {% if item.linkedin %}
-            <!-- Add divs for each icon -->
-            <div class="icon linkedin-logo">
-                <a href="{{ item.linkedin }}" target="_blank">
-                    <img src="assets/img/logos/linkedin.svg" alt="LinkedIn Logo">
-                </a>
-            </div>
-            {% endif %}
-
-            {% if item.twitter %}
-            <div class="icon twitter-logo">
-                <a href="{{ item.twitter }}" target="_blank">
-                    <img src="assets/img/logos/twitter.svg" alt="Twitter Logo">
-                </a>
-            </div>
-            {% endif %}
-
-            {% if item.resume %}
-            <div class="icon resume-logo">
-                <a href="{{ item.resume }}" target="_blank">
-                    <img src="assets/img/logos/resume.svg" alt="Resume Logo">
-                </a>
-            </div>
-            {% endif %}
-
-            {% if item.github %}
-            <div class="icon github-logo">
-                <a href="{{ item.github }}" target="_blank">
-                    <img src="assets/img/logos/github.svg" alt="Github Logo">
-                </a>
-            </div>
-            {% endif %}
-
-        </div>
-    </div>
 
     
     {% endfor %}
