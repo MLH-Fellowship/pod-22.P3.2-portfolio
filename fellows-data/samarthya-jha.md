@@ -1,16 +1,9 @@
 ---
 title: Samarthya Jha
 layout: fellows-data
+img: samarthya.jpg
+description: Solutions Developer
+programming-languages: C++
+interests: Football, Basketball, Quizzing
+university: Vellore Institute of Technology
 ---
-
-## Description
-Solutions Developer
-
-## Favourite programming languages
-C++
-
-## Interests outside of technology: 
-Football, Basketball, Quizzing
-
-## University 
-University: Vellore Institute of Technology

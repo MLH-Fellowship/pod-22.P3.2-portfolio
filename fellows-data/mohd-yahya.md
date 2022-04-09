@@ -1,16 +1,10 @@
 ---
 title: Mohd. Yahya
 layout: fellows-data
+img: mohdyahya.jpg
+description: Pre final year engineering student, React Enthusiast 
+programming-languages: JavaScript, TypeScript
+interests: Novels and Netflix 
+university: Jamia hamdard
 ---
 
-## Description
-Pre final year engineering student, React Enthusiast 
-
-## Favourite programming languages
-Javascript, TypeScript
-
-## Interests outside of technology: 
-Novels and Netflix 
-
-## University 
-Jamia hamdard

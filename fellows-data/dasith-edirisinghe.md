@@ -1,16 +1,10 @@
 ---
 title: Dasith Edirisinghe
 layout: fellows-data
+img: dasith.jpg
+description: Passionate individual who wants to combine AI and cloud native technologies to design and develop innovative solutions for human being 
+programming-languages: Python. Java, Golang
+interests: Music, Cricket, Soccer
+university: University of Moratuwa, Sri Lanka
 ---
 
-## Description
-Passionate individual who wants to combine AI and cloud native technologies to design and develop innovative solutions for human being 
-
-## Favourite programming languages
-Python. Java, Golang
-
-## Interests outside of technology: 
-Music, Cricket, Soccer
-
-## University 
-University of Moratuwa, Sri Lanka

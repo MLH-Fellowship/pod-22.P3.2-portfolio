@@ -1,16 +1,10 @@
 ---
 title: Pratyaksh Singh
 layout: fellows-data
+img: pratyaksh.jpeg
+description: PROgrammer
+programming-languages: Python
+interests : Field Sports
+university: IIIT Allahabad
 ---
 
-## Description
-PROgrammer
-
-## Favourite programming languages
-Python
-
-## Interests outside of technology: 
-Field Sports
-
-## University 
-IIIT Allahabad

@@ -1,0 +1,79 @@
+- name: Rishi Desai
+  # img: rishi.jpg
+
+
+- name: Arteev Raina
+  # img: raina.jpg
+  Description: Trying out new things every day
+  Favourite programming languages: Java
+  Interests outside of technology: Watching Sunsets, Reading, Playing Videogames, Working out
+  University: Shri Mata Vaishno Devi University
+
+- name: Samarthya Jha
+  # img: samarthya.jpg
+  Description: Solutions Developer
+  Favourite programming languages: C++
+  Interests outside of technology: Football, Basketball, Quizzing
+  University: Vellore Institute of Technology
+
+- name: Mitali Laroia
+  # img: mitali.jpg
+  Description: I'm an aspiring full stack web developer, currently learning the concepts of front end engineering and I love to work with databases both SQL and NoSql. In remaining time I also explore about Machine Learning concepts.
+  Favourite programming languages: Javascript, C++, Python
+  Interests outside of technology: Sci-fi, Pop Music, VFX
+  University: IGDTUW, Delhi, India
+
+- name: Mohd. Yahya
+  # img: mohd.jpg
+  Description: Pre final year engineering student, React Enthusiast 
+  Favourite programming languages: JavaScript, TypeScript
+  Interests outside of technology: Novels and Netflix 
+  University: Jamia hamdard
+
+- name: Pratyaksh Singh
+  # img: pratyaksh.jpg
+  Description: PROgrammer
+  Favourite programming languages: Python
+  Interests outside of technology: Field Sports
+  University: IIIT Allahabad
+
+- name: Judyta Filipkowska
+  # img: judyta.jpg
+  Description: Software developer, wannabe dancer 
+  Favourite programming languages: JavaScript 
+  Interests outside of technology: Dancing, learning languages, cooking 
+  University: Graduate in Economics - University of Gdańsk; Web Development Bootcamp - Ironhack Portugal 
+
+- name: Soham Bhoir
+  #img: soham.jpg
+  Description: I am FullStack Developer, learning How Rocket Science and Technology can go hand in hand, I love to build stuff from and experiment on them.
+  Favourite programming languages: JavaScript, Python, Java
+  Interests outside of technology: Loves to Build electronic Gadgets, Speed Cubing, EDMs
+  University: K J Somaiya College of Engineering
+
+- name: Rishabh Vasudevan
+  # img: rishabh.jpg
+  Description: I am a CS student currently in the third year, My fields of Interest are Machine Learning and Artificial Intelligence. I like learning and exploring new technologies.
+  Favourite programming languages: Python and C++
+  Interests outside of technology: Piano and Mixed Martial Arts
+  University: Vellore Institute of Technology, Vellore
+
+- name: Dasith Edirisinghe
+  # img: 
+  Description: Passionate individual who wants to combine AI and cloud native technologies to design and develop innovative solutions for human being 
+  Favourite programming languages: Python. Java, Golang
+  Interests outside of technology: Music, Cricket, Soccer
+  University: University of Moratuwa, Sri Lanka
+
+- name: Prakhar Rathi
+  # img: 
+  Description: 4th year computer science student from India. Data Science Enthusiast. 
+  Favourite programming languages: Python 
+  Interests outside of technology: Cycling and Tennis
+  University: Shiv Nadar University 
+
+- name: Asjad Ahmed Khan
+  Description: A third year student at JNU, New Delhi. Looking actively for SDE Internship opportunities.
+  Favourite programming langugages: C++, Python, JavaScript.
+  Interests outside of technology: Watching Soccer, Debating, listening to music, talking to new people.
+  University: Jawaharlal Nehru University, New Delhi

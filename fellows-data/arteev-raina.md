@@ -1,17 +1,10 @@
 ---
 title: Arteev Raina
 layout: fellows-data
-# img: /assets/img/blogs/rishi.jpg
+img: arteev.jpg
+description: Trying out new things every day
+programming-language: Java
+interest: Watching Sunsets, Reading, Playing Videogames, Working out
+university: Shri Mata Vaishno Devi University
 ---
 
-## Description
-Trying out new things every day
-
-## Favourite programming languages
-Java
-
-## Interests outside of technology
-Watching Sunsets, Reading, Playing Videogames, Working out
-
-## University
-Shri Mata Vaishno Devi University

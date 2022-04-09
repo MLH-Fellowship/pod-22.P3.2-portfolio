@@ -1,16 +1,10 @@
 ---
-title: Asjad Ahmed Khan
+title: Vibali Joshi
 layout: fellows-data
+img: vibali.jpg
+description: A technophile who loves to sing along the keys and write about programming
+programming-langugage: C++
+interests: Reading Books
+university: IIEST Shibpur
 ---
 
-## Description
-A technophile who loves to sing along the keys and write about programming
-
-## Favourite programming languages
-C++
-
-## Interests outside of technology: 
-Reading Books
-
-## University 
-IIEST Shibpur
