@@ -150,6 +150,13 @@ a {
   text-decoration: none;
 }
 
+.H_ib_body {
+	background: var(--background) !important;
+}
+.H_ib_close .H_icon {
+	fill: var(--text) !important;
+}
+
 html {
   scroll-behavior: smooth;
 }
