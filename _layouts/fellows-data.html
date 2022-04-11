@@ -1,0 +1,73 @@
+---
+layout: default
+---
+{% include navbar-min.html %}
+
+<div style="display:flex; justify-content:space-between; padding:10%; align-items:start; flex-wrap :wrap ">
+    <div>
+        <div style ='max-width: 100wh'>
+        <img src="/assets/img/{{ page.img }}"  style=" border-radius: 20px; max-width: 25rem ; max-height: 25rem;">
+    </div>
+            <div class="socials-bar" style="display: flex; justify-content: center;">
+
+                {% if page.linkedin %}
+                <!-- Add divs for each icon -->
+                <div class="icon linkedin-logo">
+                    <a href="{{ page.linkedin }}" target="_blank">
+                        <img src="../assets/img/logos/linkedin.svg" alt="LinkedIn Logo">
+                    </a>
+                </div>
+                {% endif %}
+
+                {% if page.twitter %}
+                <div class="icon twitter-logo">
+                    <a href="{{ page.twitter }}" target="_blank">
+                        <img src="../assets/img/logos/twitter.svg" alt="Twitter Logo">
+                    </a>
+                </div>
+                {% endif %}
+
+                {% if page.resume %}
+                <div class="icon resume-logo">
+                    <a href="{{ page.resume }}" target="_blank">
+                        <img src="../assets/img/logos/resume.svg" alt="Resume Logo">
+                    </a>
+                </div>
+                {% endif %}
+
+                {% if page.github %}
+                <div class="icon github-logo">
+                    <a href="{{ page.github }}" target="_blank">
+                        <img src="../assets/img/logos/github.svg" alt="Github Logo">
+                    </a>
+                </div>
+                {% endif %}
+            </div>
+    </div>
+     <div style='flex: 1; text-align: right; padding : 5%'> 
+       <h1 style='font-family: sans-serif'> {{page.title}}</h1> 
+       <br/>
+       {% if page.description %}
+       <h5 style=' font-size:1.2rem; font-style:italic;'> {{page.description}} </h5>
+       {% endif %}
+       <br/>
+       <div style='font-size:1rem'>
+        {% if page.university %}
+            <p style='color: gray'><b>Universtiy</b></p>
+                <p><b>{{page.university}}</b></p>
+        {% endif %}
+        {% if page.interests %}
+            <p style='color: gray'><b>Interests outside tech</b> </p>
+            <p><b>{{page.interests}}</b></p>
+        {% endif %}
+        {% if page.programming-languages %}
+            <p style='color: gray'><b>Programming Language</b></p>
+            <p><b>{{page.programming-languages}}</b></p>
+        {% endif %}
+        </div>
+    </div>    
+
+</div>
+
+
+{% include footer.html %}
