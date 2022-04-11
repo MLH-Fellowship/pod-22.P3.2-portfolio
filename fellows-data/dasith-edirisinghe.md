@@ -6,5 +6,10 @@ description: Passionate individual who wants to combine AI and cloud native tech
 programming-languages: Python. Java, Golang
 interests: Music, Cricket, Soccer
 university: University of Moratuwa, Sri Lanka
+location: Kandy, Sri Lanka
+linkedin: https://www.linkedin.com/in/dasithedirisinghe/
+twitter:
+github: https://github.com/DasithEdirisinghe
+resume:
 ---
 

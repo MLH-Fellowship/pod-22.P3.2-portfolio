@@ -6,6 +6,11 @@ description: I am FullStack Developer, learning How Rocket Science and Technolog
 programming-languages: JavaScript, Python, Java
 interests: Loves to Build electronic Gadgets, Speed Cubing, EDMs
 university: K J Somaiya College of Engineering
+location: Mumbai, IN
+linkedin: https://www.linkedin.com/in/sohambhoir/
+twitter:
+github: https://github.com/ThunderBolt-OS
+resume:
 ---
 
 
