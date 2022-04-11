@@ -156,6 +156,12 @@ hr {
   justify-content: flex-end;
   align-items: center;
   margin-right: 2rem;
+
+  &-individual-pages {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+  }
 }
 .theme-switch {
   --background: #fff;

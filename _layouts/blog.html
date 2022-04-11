@@ -18,6 +18,21 @@ layout: default
     </div>
 </div>
 
+<div class="switch-div-individual-pages">
+    <div class="theme-switch">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun fa-lg"></i>
+        <div class="switch"></div>
+    </div>
+</div>
+
+<script>
+    $(".theme-switch").on("click", () => {
+        $("body").toggleClass("light-theme");
+        $(".profile").toggleClass("backgroundImage1");
+    });
+</script>
+
 <div class="container blog-container">
     {{ content }}
 </div>
