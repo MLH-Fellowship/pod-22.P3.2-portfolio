@@ -201,6 +201,11 @@ hr {
   transition: all 0.2s linear;
   background: var(--background);
 
+  .github-logo > a > svg {
+    fill: #000 !important;
+  }
+
+
   .body {
     color: var(--text);
   }

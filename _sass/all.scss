@@ -127,6 +127,13 @@ a {
   img {
     width: 100%;
   }
+
+  &.github-logo > a > svg {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    fill: #fff;
+  }
 }
 
 .socials-bar {
@@ -151,10 +158,10 @@ a {
 }
 
 .H_ib_body {
-	background: var(--background) !important;
+  background: var(--background) !important;
 }
 .H_ib_close .H_icon {
-	fill: var(--text) !important;
+  fill: var(--text) !important;
 }
 
 html {
@@ -188,7 +195,7 @@ html {
   max-height: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: inline;        
+  display: inline;
   padding: 20px;
   margin-bottom: 10px;
   height: 200px;
