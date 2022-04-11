@@ -2,6 +2,8 @@
   file-name: arteev-raina
   img: arteev.jpg
   location: Jammu & Kashmir, IN
+  latitude: 32.7053
+  longitude: 74.8800
   linkedin: https://www.linkedin.com/in/arteevraina/
   twitter:
   github: https://github.com/arteevraina
@@ -11,6 +13,8 @@
   file-name: prakhar-rathi
   img: prakhar.png
   location: New Delhi, IN
+  latitude: 28.4595
+  longitude: 77.0266
   linkedin: https://www.linkedin.com/in/prakhar-rathi/
   twitter: https://www.twitter.com/PrakharRathi14
   github: https://github.com/prakharrathi25
@@ -20,6 +24,8 @@
   file-name: vibali-joshi
   img: vibali.jpg
   location: Kolkata, IN
+  latitude: 22.5726
+  longitude: 88.3639
   linkedin: https://www.linkedin.com/in/vibalijoshi/
   twitter:
   github: https://github.com/vibalijoshi
@@ -29,6 +35,8 @@
   file-name: dasith-edirisinghe
   img: dasith.jpg
   location: Kandy, Sri Lanka
+  latitude: 7.0447
+  longitude: 80.5161
   linkedin: https://www.linkedin.com/in/dasithedirisinghe/
   twitter:
   github: https://github.com/DasithEdirisinghe
@@ -38,6 +46,8 @@
   file-name: asjad-ahmed-khan
   img: asjad.png
   location: New Delhi, IN
+  latitude: 28.6139
+  longitude: 77.2090
   linkedin: https://www.linkedin.com/in/asjad2001/
   twitter:
   github: https://github.com/2001asjad
@@ -47,6 +57,8 @@
   file-name: pratyaksh-singh
   img: pratyaksh.jpeg
   location: UP, IN
+  latitude: 25.1215
+  longitude: 82.5635
   linkedin: https://www.linkedin.com/in/psn0w/
   twitter:
   github: https://github.com/pSN0W
@@ -56,6 +68,8 @@
   file-name: soham-bhoir
   img: soham.jpeg
   location: Mumbai, IN
+  latitude: 19.2986
+  longitude: 73.2089
   linkedin: https://www.linkedin.com/in/sohambhoir/
   twitter:
   github: https://github.com/ThunderBolt-OS
@@ -65,6 +79,8 @@
   file-name: meghana-varanasi
   img: meghana.png
   location: Visakhapatnam, IN
+  latitude: 21.1612
+  longitude: 81.6589
   linkedin: https://www.linkedin.com/in/prakhar-rathi/
   twitter:
   github: https://github.com/Meghana-12
@@ -74,6 +90,8 @@
   file-name: mohd-yahya
   img: mohdyahya.jpg
   location: Delhi, IN
+  latitude: 28.6828
+  longitude: 77.3121
   linkedin: https://www.linkedin.com/in/mohd-yahya-869a18214/
   twitter:
   github: https://github.com/yahya-cloud
@@ -83,6 +101,8 @@
   file-name: mitali-laroria
   img: mitali.jpg
   location: Delhi, IN
+  latitude: 27.2046
+  longitude: 77.4977
   linkedin: https://www.linkedin.com/in/mitali-laroia-b52763191
   twitter: https://twitter.com/LaroiaMitali?s=08
   github: https://github.com/Mitali-laroia
@@ -92,6 +112,8 @@
   file-name: samarthya-jha
   img: samarthya.jpg
   location: Tamil Nadu, IN
+  latitude: 12.9165
+  longitude: 79.1325
   linkedin: https://www.linkedin.com/in/samarthya-jha-a3b9971a9/
   twitter:
   github: https://github.com/samarthya-jha
@@ -101,6 +123,8 @@
   file-name: judyta-filipkowska
   img: judyta.jpg
   location: Lisbon, PT
+  latitude: 38.7369
+  longitude: -9.1427
   linkedin: https://www.linkedin.com/in/judyta-filipkowska/
   twitter:
   github: https://github.com/judytafilipkowska
@@ -110,6 +134,8 @@
   file-name: rishi-desai
   img: rishi.jpg
   location: Mumbai, IN
+  latitude: 19.1895
+  longitude: 72.8422
   linkedin: https://www.linkedin.com/in/rishindesaii
   twitter:
   github: https://github.com/RishiDesai17
@@ -119,6 +145,8 @@
   file-name: rishabh-vasudevan
   img: Rishabh Vasudevan.jpg
   location: Mumbai, IN
+  latitude: 28.5971
+  longitude: 77.2952
   linkedin: https://www.linkedin.com/in/rishabh-vasudevan-6500ab19b/
   github: https://www.github.com/rishabh-vasudevan
   resume:

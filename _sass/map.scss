@@ -1,12 +1,53 @@
 .map {
   width: 100%;
-  height: 500px;
+  height: 700px;
   padding: 0 30px;
+  margin: 40px 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
 }
 
 #mapContainer {
-  width: 100%;
+  width: 75%;
   height: 100%;
   border-radius: 8px;
   background-color: #ebebeb;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#el {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 3px solid rgb(231, 231, 0);
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+}
+
+.map-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .profile-img-map {
+    width: 60px;
+    height: 60px;
+
+    .description-img-map {
+      padding: 0;
+    }
+  }
+
+  .info-map {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  #mapContainer {
+    width: 100%;
+  }
 }

@@ -6,3 +6,6 @@
 
 - id: blog-nav
   name: Blog
+
+- id: locate-the-pod-nav
+  name: Locate the Pod

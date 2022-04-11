@@ -5,6 +5,7 @@
 @import 'page';
 @import 'blog';
 @import 'footer';
+@import 'map';
 
 .card-container {
   display: grid;
@@ -147,6 +148,13 @@ a {
   padding: 8px 12px 8px 12px;
   background-color: #0f90fe;
   text-decoration: none;
+}
+
+.H_ib_body {
+	background: var(--background) !important;
+}
+.H_ib_close .H_icon {
+	fill: var(--text) !important;
 }
 
 html {

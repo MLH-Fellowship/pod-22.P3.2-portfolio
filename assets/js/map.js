@@ -1,27 +1,29 @@
-var platform = new H.service.Platform({
-    apikey: "Ie58QDbD3CjcQT8Xnwlgap30qMYPWqhbMs99Dbi7nz8",
-  }),
-  defaultLayers = platform.createDefaultLayers(),
-  maptypes = platform.createDefaultLayers(),
-  map = new H.Map(
-    document.getElementById("mapContainer"),
-    maptypes.vector.normal.map,
-    {
-      zoom: 1,
-      center: { lng: 13.4, lat: 52.51 },
-    }
-  ),
-  behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map)),
-  ui = H.ui.UI.createDefault(map, defaultLayers);
+let platform = new H.service.Platform({
+  apikey: "Ie58QDbD3CjcQT8Xnwlgap30qMYPWqhbMs99Dbi7nz8",
+});
+let maptypes = platform.createDefaultLayers();
+let map = new H.Map(
+  document.getElementById("mapContainer"),
+  maptypes.vector.normal.map,
+  {
+    zoom: 2.8,
+    center: { lat: 15, lng: 70 },
+  }
+);
+let behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
+let ui = H.ui.UI.createDefault(map, maptypes);
+behavior.disable(H.mapevents.Behavior.WHEELZOOM);
 
-function addMarkerToGroup(group, coordinate, html) {
-  var marker = new H.map.Marker(coordinate);
+function addMarkerToGroup(group, coords, html, domElement) {
+  let icon = new H.map.DomIcon(domElement);
+  let marker = new H.map.DomMarker(coords, { icon: icon });
+
   marker.setData(html);
   group.addObject(marker);
 }
 
 function addInfoBubble(map) {
-  var group = new H.map.Group();
+  let group = new H.map.Group();
   map.addObject(group);
   // add 'tap' event listener, that opens info bubble, to the group
   group.addEventListener(
@@ -29,27 +31,43 @@ function addInfoBubble(map) {
     function (evt) {
       // event target is the marker itself, group is a parent event target
       // for all objects that it contains
-      var bubble = new H.ui.InfoBubble(evt.target.getGeometry(), {
+      let bubble = new H.ui.InfoBubble(evt.target.getGeometry(), {
         // read custom data
         content: evt.target.getData(),
       });
+
+      // close opened info bubbles
+      ui.getBubbles().forEach((bub) => ui.removeBubble(bub));
+
       // show info bubble
       ui.addBubble(bubble);
     },
     false
   );
-  addMarkerToGroup(
-    group,
-    { lat: 53.439, lng: -2.221 },
-    '<div><a href="https://www.mcfc.co.uk">Manchester City</a></div>' +
-      "<div>City of Manchester Stadium<br />Capacity: 55,097</div>"
-  );
-  addMarkerToGroup(
-    group,
-    { lat: 53.43, lng: -2.961 },
-    '<div><a href="https://www.liverpoolfc.tv">Liverpool</a></div>' +
-      "<div>Anfield<br />Capacity: 54,074</div>"
-  );
+
+  fellows.forEach((fellow) => {
+    let domElement = document.createElement("div");
+    domElement.setAttribute("id", "el");
+    domElement.style.cssText = `background-image: url("./assets/img/${fellow.img}")`;
+    
+    addMarkerToGroup(
+      group,
+      { lat: fellow.latitude, lng: fellow.longitude },
+      `<div class="map-card">
+        <div class="profile-img profile-img-map">
+          <img class="description-img description-img-map" src="./assets/img/${fellow.img}">
+        </div>
+        <div class="info info-map">
+          <p class="title card-text">
+            <a href="/fellows-data/${fellow["file-name"]}">${fellow.name}</a>
+          </p>
+          <p class="location card-text">${fellow.location}</p>
+        </div>
+      </div>
+      `,
+      domElement
+    );
+  });
 }
 
 addInfoBubble(map);
