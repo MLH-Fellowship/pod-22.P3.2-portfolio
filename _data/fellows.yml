@@ -1,4 +1,5 @@
 - name: Arteev
+  file-name: arteev-raina
   img: arteev.jpg
   location: Jammu & Kashmir, IN
   latitude: 32.7053
@@ -7,8 +8,9 @@
   twitter:
   github: https://github.com/arteevraina
   resume:
-
+  
 - name: Prakhar
+  file-name: prakhar-rathi
   img: prakhar.png
   location: New Delhi, IN
   latitude: 28.4595
@@ -19,6 +21,7 @@
   resume: https://prakharrathi25.netlify.app/
 
 - name: Vibali
+  file-name: vibali-joshi
   img: vibali.jpg
   location: Kolkata, IN
   latitude: 22.5726
@@ -29,6 +32,7 @@
   resume:
 
 - name: Dasith
+  file-name: dasith-edirisinghe
   img: dasith.jpg
   location: Kandy, Sri Lanka
   latitude: 7.0447
@@ -39,6 +43,7 @@
   resume:
 
 - name: Asjad
+  file-name: asjad-ahmed-khan
   img: asjad.png
   location: New Delhi, IN
   latitude: 28.6139
@@ -49,6 +54,7 @@
   resume:
 
 - name: Pratyaksh
+  file-name: pratyaksh-singh
   img: pratyaksh.jpeg
   location: UP, IN
   latitude: 25.1215
@@ -59,6 +65,7 @@
   resume:
 
 - name: Soham
+  file-name: soham-bhoir
   img: soham.jpeg
   location: Mumbai, IN
   latitude: 19.2986
@@ -69,6 +76,7 @@
   resume:
 
 - name: Meghana
+  file-name: meghana-varanasi
   img: meghana.png
   location: Visakhapatnam, IN
   latitude: 21.1612
@@ -79,6 +87,7 @@
   resume:
 
 - name: Mohd. Yahya
+  file-name: mohd-yahya
   img: mohdyahya.jpg
   location: Delhi, IN
   latitude: 28.6828
@@ -89,6 +98,7 @@
   resume:
 
 - name: Mitali
+  file-name: mitali-laroria
   img: mitali.jpg
   location: Delhi, IN
   latitude: 27.2046
@@ -99,6 +109,7 @@
   resume:
 
 - name: Samarthya
+  file-name: samarthya-jha
   img: samarthya.jpg
   location: Tamil Nadu, IN
   latitude: 12.9165
@@ -109,6 +120,7 @@
   resume:
 
 - name: Judyta
+  file-name: judyta-filipkowska
   img: judyta.jpg
   location: Lisbon, PT
   latitude: 38.7369
@@ -116,9 +128,10 @@
   linkedin: https://www.linkedin.com/in/judyta-filipkowska/
   twitter:
   github: https://github.com/judytafilipkowska
-  resume:
+  resume:  
 
 - name: Rishi
+  file-name: rishi-desai
   img: rishi.jpg
   location: Mumbai, IN
   latitude: 19.1895
@@ -129,6 +142,7 @@
   resume:
 
 - name: Rishabh
+  file-name: rishabh-vasudevan
   img: Rishabh Vasudevan.jpg
   location: Mumbai, IN
   latitude: 28.5971
@@ -136,3 +150,5 @@
   linkedin: https://www.linkedin.com/in/rishabh-vasudevan-6500ab19b/
   github: https://www.github.com/rishabh-vasudevan
   resume:
+
+
