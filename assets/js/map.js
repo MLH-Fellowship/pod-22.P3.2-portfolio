@@ -58,7 +58,9 @@ function addInfoBubble(map) {
           <img class="description-img description-img-map" src="./assets/img/${fellow.img}">
         </div>
         <div class="info info-map">
-          <p class="title card-text">${fellow.name}</p>
+          <p class="title card-text">
+            <a href="/fellows-data/${fellow["file-name"]}">${fellow.name}</a>
+          </p>
           <p class="location card-text">${fellow.location}</p>
         </div>
       </div>
